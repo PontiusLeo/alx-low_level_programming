@@ -1,3 +1,5 @@
+nes (17 sloc)  421 Bytes
+
 #include <stdlib.h>
 #include "function_pointers.h"
 
@@ -17,4 +19,4 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 
 	for (i = 0; i < size; i++)
 		action(array[i]);
-
+}
